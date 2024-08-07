@@ -23,7 +23,7 @@ public class CascadedYMLApplication {
 
 		ConfigurableEnvironment environment = applicationContext.getEnvironment();
 		MutablePropertySources sources = environment.getPropertySources();
-		sources.forEach(p -> System.out.println("AAAAAAAA" + p.getName()));
+		sources.forEach(p -> System.out.println(p.getName()));
     }
 
 }

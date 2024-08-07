@@ -20,7 +20,7 @@ public class ScheduleTask {
     private String p2v2;
 
     @Value("${local.value}")
-    private String lv;
+    private String localValue;
 
     @Scheduled(fixedRate = 5000)
     public void task() {
@@ -30,7 +30,7 @@ public class ScheduleTask {
         System.out.println("project2.value1 = " + p2v1);
         System.out.println("project2.value2 = " + p2v2);
         System.out.println("-------------------------");
-        System.out.println("local.value = " + lv);
+        System.out.println("local.value = " + localValue);
         System.out.println("#########################");
     }
 }
