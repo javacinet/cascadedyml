@@ -19,7 +19,8 @@ public class ScheduleTask {
     @Value("${project2.value2}")
     private String p2v2;
 
-    @Value("${local.value}")
+    // Comment the followıng lıne out after adding this -Dspring.profiles.active=local as a VM option
+    // @Value("${local.value}")
     private String localValue;
 
     @Scheduled(fixedRate = 5000)
