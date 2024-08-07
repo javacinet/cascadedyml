@@ -1,0 +1,6 @@
+project1:
+  value2: project1 value2 from application-local.yml file
+project2:
+  value2: project2 value2 from application-local.yml file
+local:
+  value: value from local
